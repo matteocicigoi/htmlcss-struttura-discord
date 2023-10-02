@@ -46,6 +46,45 @@
     border: dashed 2px black;
     height: 935px;
 }
+/* - Footer - */
+.debug footer{
+    background-color: #23272A;
+}
+.debug footer .container{
+    height: 600px;
+}
+.debug .footerBottom{
+    border-color: #D7D7D8;
+    height: 115px;
+}
+.debug .primaColonna{
+    background-color: #F08080;
+    border: dashed 2px black;
+}
+.debug .secondaColonna{
+    background-color: #20B2AA;
+    border: dashed 2px black;
+}
+.debug .secondaColonna div{
+    border: dashed 2px white;
+    flex-grow: 1;
+}
+.debug .footerBottom .container{
+    height: 85px;
+    background-color: #7FFFD4;
+}
+.debug .footerBottom .container div{
+    height: 40px;
+    background-color: #FFB6C1;
+    border: dashed 2px black;
+    text-align: center;
+}
+.debug .logoFooter{
+    width: 70px;
+}
+.debug .bottoneFooter{
+    width: 100px;
+}
 /* Common */
 .container, .container2{
     width: 1250px;
@@ -89,4 +128,28 @@ section{
 }
 .primo{
     flex-grow: 1;
+}
+/* Footer */
+footer{
+    padding-top: 10px;
+}
+footer .container{
+    margin-bottom: 45px;
+}
+.footerBottom{
+    border-top: 2px solid;
+    height: 115px;
+    padding-top: 28px;
+}
+.primaColonna{
+    flex-grow: 1;
+}
+.secondaColonna{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.footerBottom .container div{
+    padding: 10px;
+    align-self: center;
 }
