@@ -1,0 +1,60 @@
+/* Reset */ 
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Debug */
+.debug header{
+    background-color: #00008B;
+    border-bottom: solid 4px #ADD8E6;
+}
+.debug nav{
+    background-color: #ADD8E6;
+}
+.debug header .container{
+    height: 50px;
+    background-color: #DAA520;
+}
+.debug nav .container div{
+    border: dashed 2px black;
+}
+.debug .link{
+    width: 750px;
+}
+.debug .box{
+    height: 415px;
+    background-color: #EE82EE;
+    border: dashed 2px black;
+}
+/* */
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+/* Header */
+nav{
+    padding: 17px;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+.debug nav .container div{
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px 10px;
+}
+.logo, .login{
+    flex-grow: 1;
+}
+.login{
+    text-align: right;
+}
+.link{
+    text-align: center;
+}
+.box{
+    width: 950px;
+    margin: 50px auto;
+}
